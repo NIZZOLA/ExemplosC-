@@ -1,0 +1,7 @@
+F:\etec\2018 1º sem\programacao de jogos\Games_Acesso_Bd\AcessoBanco\AcessoBanco\bin\Debug\AcessoBanco.exe.config
+F:\etec\2018 1º sem\programacao de jogos\Games_Acesso_Bd\AcessoBanco\AcessoBanco\bin\Debug\AcessoBanco.exe
+F:\etec\2018 1º sem\programacao de jogos\Games_Acesso_Bd\AcessoBanco\AcessoBanco\bin\Debug\AcessoBanco.pdb
+F:\etec\2018 1º sem\programacao de jogos\Games_Acesso_Bd\AcessoBanco\AcessoBanco\obj\Debug\AcessoBanco.csprojResolveAssemblyReference.cache
+F:\etec\2018 1º sem\programacao de jogos\Games_Acesso_Bd\AcessoBanco\AcessoBanco\obj\Debug\AcessoBanco.csproj.CoreCompileInputs.cache
+F:\etec\2018 1º sem\programacao de jogos\Games_Acesso_Bd\AcessoBanco\AcessoBanco\obj\Debug\AcessoBanco.exe
+F:\etec\2018 1º sem\programacao de jogos\Games_Acesso_Bd\AcessoBanco\AcessoBanco\obj\Debug\AcessoBanco.pdb

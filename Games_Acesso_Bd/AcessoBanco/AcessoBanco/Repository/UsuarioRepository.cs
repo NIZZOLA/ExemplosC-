@@ -24,8 +24,10 @@ namespace AcessoBanco.Repository
             {
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)
-                    //MessageBox.Show("Cadastro realizado com sucesso!");
-                    return usu;
+                {
+                  usu.UsuarioId = this.ObterUltimoId();
+                  return usu;
+                }
             }
             catch (Exception ex)
             {
@@ -41,8 +43,7 @@ namespace AcessoBanco.Repository
 
         public Usuario Alterar(Usuario usu)
         {
-            string sql = "UPDATE USUARIO SET NOME=@Nome, EMAIL=@EMAIL, SENHA=@Cep, BAIRRO=@Bairro, " +
-    "CIDADE=@Cidade, UF=@Uf, TELEFONE=@Telefone WHERE ID=@Id";
+            string sql = "UPDATE USUARIO SET NOME=@Nome, EMAIL=@EMAIL, SENHA=@SENHA WHERE USUARIOID=@UsuarioId";
             SqlConnection con = new SqlConnection(connectionString);
             SqlCommand cmd = new SqlCommand(sql, con);
             cmd.Parameters.AddWithValue("@usuarioId", usu.UsuarioId);
@@ -67,7 +68,7 @@ namespace AcessoBanco.Repository
                 con.Close();
             }
 
-            return usu;
+            return null;
         }
 
         public bool Excluir(int usuarioId)
@@ -105,6 +106,31 @@ namespace AcessoBanco.Repository
 
         }
         */
+        public int ObterUltimoId()
+        {
+            Usuario usu = new Usuario();
+            string sql = "SELECT MAX(USUARIOID) FROM USUARIO";
+
+            SqlConnection con = new SqlConnection(connectionString);
+            SqlCommand cmd = new SqlCommand(sql, con);
+            cmd.CommandType = CommandType.Text;
+            con.Open();
+            try
+            {
+                int valor = Convert.ToInt32( cmd.ExecuteScalar() );
+                
+                return valor;
+            }
+            catch (Exception ex)
+            {
+                return 0;
+            }
+            finally
+            {
+                con.Close();
+            }
+            return 0;
+        }
 
         public Usuario Consultar(int usuarioId)
         {

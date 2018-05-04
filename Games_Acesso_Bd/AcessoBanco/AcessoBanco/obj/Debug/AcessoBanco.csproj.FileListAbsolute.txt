@@ -5,3 +5,10 @@ F:\etec\2018 1º sem\programacao de jogos\Games_Acesso_Bd\AcessoBanco\AcessoBanc
 F:\etec\2018 1º sem\programacao de jogos\Games_Acesso_Bd\AcessoBanco\AcessoBanco\obj\Debug\AcessoBanco.csproj.CoreCompileInputs.cache
 F:\etec\2018 1º sem\programacao de jogos\Games_Acesso_Bd\AcessoBanco\AcessoBanco\obj\Debug\AcessoBanco.exe
 F:\etec\2018 1º sem\programacao de jogos\Games_Acesso_Bd\AcessoBanco\AcessoBanco\obj\Debug\AcessoBanco.pdb
+E:\programacao\git\exemplosC#\Games_Acesso_Bd\AcessoBanco\AcessoBanco\bin\Debug\AcessoBanco.exe.config
+E:\programacao\git\exemplosC#\Games_Acesso_Bd\AcessoBanco\AcessoBanco\bin\Debug\AcessoBanco.exe
+E:\programacao\git\exemplosC#\Games_Acesso_Bd\AcessoBanco\AcessoBanco\bin\Debug\AcessoBanco.pdb
+E:\programacao\git\exemplosC#\Games_Acesso_Bd\AcessoBanco\AcessoBanco\obj\Debug\AcessoBanco.csprojResolveAssemblyReference.cache
+E:\programacao\git\exemplosC#\Games_Acesso_Bd\AcessoBanco\AcessoBanco\obj\Debug\AcessoBanco.csproj.CoreCompileInputs.cache
+E:\programacao\git\exemplosC#\Games_Acesso_Bd\AcessoBanco\AcessoBanco\obj\Debug\AcessoBanco.exe
+E:\programacao\git\exemplosC#\Games_Acesso_Bd\AcessoBanco\AcessoBanco\obj\Debug\AcessoBanco.pdb

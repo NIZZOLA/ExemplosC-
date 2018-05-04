@@ -21,6 +21,19 @@ namespace AcessoBanco
 
             var ret = usuRep.Incluir(usu);
 
+            Console.WriteLine("Usuário adicionado:" + usu.UsuarioId.ToString());
+
+            Console.ReadKey();
+
+            ret.Nome = "MARCIO ROGERIO";
+
+            var ret2 = usuRep.Alterar(ret);
+
+
+            var consulta = usuRep.Consultar(8);
+
+            Console.WriteLine(consulta.Nome);
+            Console.ReadKey();
 
         }
     }

@@ -12,15 +12,17 @@ namespace AcessoBanco
     {
         static void Main(string[] args)
         {
+
             Usuario usu = new Usuario();
             UsuarioRepository usuRep = new UsuarioRepository();
 
+            /*
             var item = usuRep.ConsultarPorEmail("marcio@aaa.com");
             Console.WriteLine("\nCodigo:" + item.UsuarioId + "\nNome" + item.Nome + "\nE-mail:" + item.Email + "\n Senha:" + item.Senha + "\n");
             Console.ReadKey();
+            */
 
-
-            /*
+            
             var lista = usuRep.ConsultarTodos();
             foreach (var item in lista)
             {
@@ -59,7 +61,7 @@ namespace AcessoBanco
 
             Console.WriteLine("Resposta da exclusão:" + resp.ToString());
             Console.ReadKey();
-            */
+            
         }
     }
 }

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcessoBanco", "AcessoBanco\AcessoBanco.csproj", "{8434F00D-2EE1-47EF-8A9C-F968A7E3657E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesAPI", "GamesAPI\GamesAPI.csproj", "{7227E435-3AAA-41E7-9EFC-8FA905D1A031}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8434F00D-2EE1-47EF-8A9C-F968A7E3657E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8434F00D-2EE1-47EF-8A9C-F968A7E3657E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8434F00D-2EE1-47EF-8A9C-F968A7E3657E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7227E435-3AAA-41E7-9EFC-8FA905D1A031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7227E435-3AAA-41E7-9EFC-8FA905D1A031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7227E435-3AAA-41E7-9EFC-8FA905D1A031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7227E435-3AAA-41E7-9EFC-8FA905D1A031}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
